@@ -4,8 +4,8 @@ submitButton.onclick = function () {
   var cN = document.getElementById("cardNumber").value;
   var pin = document.getElementById("pinNumber").value;
 
-  const cardNumber = '123456789';
-  const pinNumber = '123456';
+  const cardNumber = 'number';
+  const pinNumber = 'pin';
 
   if (cardNumber === cN && pinNumber === pin) {
     window.location.href = "processATM.html";
